@@ -1,3 +1,5 @@
+// auther: salwa shama
+
 package puzzleclient;
 
 import java.awt.Desktop;
