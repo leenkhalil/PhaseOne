@@ -25,12 +25,11 @@ public class HTTPClient {
         File htmlFile = new File(filePath);
         Desktop desktop = Desktop.getDesktop();
         desktop.browse(htmlFile.toURI());
-    
 
         // @ Test :
         // partition:
         // 1. filePath
-        // subdomain:
+        // subdomain :
         // 1.1 path length is long >= 260 characters on a Windows system.
         // 1.2 20 < path length is medium < 260 on a Windows system.
         // 1.3 path length is short <= 20 characters on a Windows system.
@@ -42,7 +41,7 @@ public class HTTPClient {
         // Test Cases :
         // filePath = "C:\" + "a\" * 126 + "a.txt" (covers 1.1 ).
         // filePath = "../../HttpClient/html/index-1.html" (covers 1.2 & 1.4 & 1.5).
-        // filePath = " " covers path length is short (covers 1.3). 
+        // filePath = " " covers path length is short (covers 1.3).
         // filePath = "../HTML/index-1.html". (covers 1.6 ).
 
     }
