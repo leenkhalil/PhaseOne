@@ -59,7 +59,7 @@ public class ImageserverApplication {
         // imageName = 'Supercalifragilisticexpialidocious-Supercalifragilisticexpialidocious-
         //             Supercalifragilisticexpialidocious-Supercalifragilisticexpialidocious-
         //             Supercalifragilisticexpialidocious-Supercalifragilisticexpialidocious-
-        //             Supercalifragilisticexpialidocious.png'  (covers 1.2).
+        //             Supercalifragilisticexpialidocious.png' (covers 1.2).
         // imageName = 'SE324-Project.png' (covers 1.3 & 1.4 & 1.5) 
         // imageName = IMAGE must return the same result when we have imageName = image (covers 1.5 )
         // imageName = "apple.png" should throw ResponseStatusException (covers 1.6 )
