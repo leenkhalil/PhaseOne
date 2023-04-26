@@ -2,6 +2,8 @@ package sudokuse;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import java.io.IOException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class sukokuServer {
  /**
@@ -49,6 +51,9 @@ public class sukokuServer {
  * @return a String representing the current time
  */
 public static String getCurrentTime(){
+LocalDateTime now = LocalDateTime.now();
+    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
+    return now.format(formatter);
 
 }
     
