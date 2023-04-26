@@ -14,7 +14,7 @@ public class sudokuClient {
      
      
      // Send HTTP request for selected image
-     
+     //URL url = new URL("http://localhost:8080/image?image=" + imageChoice);
      
      // Read response as image and display in JFrame
      }}

@@ -41,7 +41,7 @@ public class sukokuServer {
         @Override
         public void handle(HttpExchange exchange) throws IOException {
              // Serve HTML page with links to the two images
-            
+            //BufferedImage image = ImageIO.read(new File("C:\\Users\\rasha\\Desktop\\" + imageName + ".png"));
         }
       }
     
